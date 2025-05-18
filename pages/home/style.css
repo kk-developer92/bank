@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Gilroy;
+}
+
+.h1 {
+  font-family: Gilroy;
+  font-weight: 700;
+  font-size: 48px;
+  padding-bottom: 11px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+th {
+  font-weight: 600;
+  font-size: 14px;
+  color: #B9C0D1;
+  text-align: left;
+  padding: 12px 16px;
+}
+
+td {
+  font-weight: 500;
+  padding: 12px 16px;
+  border-bottom: 1px solid #B9C0D1;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.google {
+  font-weight: 700;
+  font-size: 18px;
+  text-decoration: none;
+  color: #0047FF;
+  margin-bottom: 74px;
+}
+
+.wallet {
+  width: 282px;
+  height: 160px;
+  top: 330px;
+  left: 266px;
+  border-radius: 15px;
+  background: linear-gradient(84.37deg, #20BF55 2.27%, #01BAEF 92.26%);
+}
+
+.wallet:nth-child(2) {
+  background: linear-gradient(84.37deg, #D7816A 2.27%, #BD4F6C 92.26%);
+}
+
+.wallet:nth-child(3) {
+  background: linear-gradient(135deg, #00b09b, #36fa05);
+}
+
+.wallet:nth-child(4) {
+  background: linear-gradient(135deg, #886e84, #387fcc);
+}
+
+.wallet:nth-child(5) {
+  background: linear-gradient(135deg, #00fff2, #0011ff);
+}
+
+.wallet:nth-child(6) {
+  background: linear-gradient(135deg, #e73b10, #f1dd29);
+}
+
+.wallet:nth-child(7) {
+  background: linear-gradient(135deg, #05beec, #0fca2e);
+}
+
+.wallet:nth-child(n+5) {
+  display: none;
+}
+
+.wallet h2 {
+  padding-top: 19px;
+  padding-left: 23px;
+  font-family: Gilroy;
+  font-weight: 500;
+  font-size: 24px;
+  color: white;
+}
+
+.wallet p {
+  padding-top: 78px;
+  padding-left: 23px;
+  font-family: Gilroy;
+  font-weight: 700;
+  font-size: 14px;
+  color: white;
+}
+
+.my-wallet {
+  padding-top: 84px;
+  font-family: Gilroy;
+  font-weight: 500;
+  font-size: 24px;
+  padding-bottom: 21px;
+}
+
+.all-wallet {
+  color: #0047FF;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.my-wallets {
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  padding-bottom: 21px; 
+}
+
+.transactions h2 {
+  font-family: Gilroy;
+  font-weight: 500;
+  font-size: 24px;
+  padding-top: 74px;
+}
+
+.transactions a {
+  font-family: Gilroy;
+  font-weight: 600;
+  font-size: 16px;
+  color: #0047FF;
+}
