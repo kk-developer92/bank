@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Gilroy;
+}
+
+h1 {
+    font-family: Gilroy;
+    font-weight: 700;
+    font-size: 48px;
+    padding-bottom: 11px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.google {
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    color: #0047FF;
+    padding-bottom: 11px 0 60px;
+}
+
+.wallet {
+    width: 282px;
+    height: 160px;
+    top: 330px;
+    left: 266px;
+    border-radius: 15px;
+    background: linear-gradient(84.37deg, #20BF55 2.27%, #01BAEF 92.26%);
+}
+
+.wallet:nth-child(2) {
+    background: linear-gradient(135deg, #392de2, #e0007b);
+}
+
+.wallet:nth-child(3) {
+    background: linear-gradient(135deg, #00b09b, #36fa05);
+}
+
+.wallet:nth-child(4) {
+    background: linear-gradient(135deg, #886e84, #387fcc);
+}
+
+.wallet:nth-child(5) {
+    background: linear-gradient(135deg, #00fff2, #0011ff);
+}
+
+.wallet:nth-child(6) {
+    background: linear-gradient(135deg, #e73b10, #f1dd29);
+}
+
+.wallet:nth-child(7) {
+    background: linear-gradient(135deg, #474444, #0f2bca);
+}
+
+.wallet h2 {
+    padding-top: 19px;
+    padding-left: 23px;
+    font-family: Gilroy;
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+}
+
+.wallet p {
+    padding-top: 78px;
+    padding-left: 23px;
+    font-family: Gilroy;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+}
+
+.my-wallets {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    margin-top: 60px;
+}
+
+button {
+    width: 438px;
+    height: 56px;
+    border-radius: 10px;
+    background: #0047FF;
+    border: none;
+    margin-top: 44px;
+}
+
+button a {
+    color: white;
+    font-family: Gilroy;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+}
