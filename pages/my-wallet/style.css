@@ -5,6 +5,43 @@
     font-family: Gilroy;
 }
 
+
+header {
+  height: 70px;
+  background: #F0F0F0;
+  align-items: center;
+  text-align: center;
+  padding-inline: 264px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+  display: flex;
+  gap: 21px;
+}
+
+.google_link {
+  display: flex;
+  gap: 19px;
+}
+
+img {
+  height: 18px;
+}
+
+header a {
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  color: #000000;
+  transition: 0.3s;
+}
+
+header a:hover{
+  transform: scale(1.1);
+}
+
 h1 {
     font-family: Gilroy;
     font-weight: 700;
@@ -35,27 +72,27 @@ h1 {
 }
 
 .wallet:nth-child(2) {
-    background: linear-gradient(135deg, #392de2, #e0007b);
+  background: linear-gradient(84.37deg, #da8068 2.27%, #ff0000 92.26%);
 }
 
 .wallet:nth-child(3) {
-    background: linear-gradient(135deg, #00b09b, #36fa05);
+  background: linear-gradient(135deg, #00b09b 2.27%, #36fa05 92.26%);
 }
 
 .wallet:nth-child(4) {
-    background: linear-gradient(135deg, #886e84, #387fcc);
+  background: linear-gradient(135deg, #886e84 2.27%, #387fcc 92.26%);
 }
 
 .wallet:nth-child(5) {
-    background: linear-gradient(135deg, #00fff2, #0011ff);
+  background: linear-gradient(135deg, #00fff2 2.27%, #0011ff 92.26%);
 }
 
 .wallet:nth-child(6) {
-    background: linear-gradient(135deg, #e73b10, #f1dd29);
+  background: linear-gradient(135deg, #e73b10 2.27%, #f1dd29 92.26%);
 }
 
 .wallet:nth-child(7) {
-    background: linear-gradient(135deg, #474444, #0f2bca);
+  background: linear-gradient(84.37deg, #380036 2.27%, #0CBABA 92.26%);
 }
 
 .wallet h2 {

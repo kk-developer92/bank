@@ -5,6 +5,42 @@
   font-family: Gilroy;
 }
 
+header {
+  height: 70px;
+  background: #F0F0F0;
+  align-items: center;
+  text-align: center;
+  padding-inline: 264px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+  display: flex;
+  gap: 21px;
+}
+
+.google_link {
+  display: flex;
+  gap: 19px;
+}
+
+img {
+  height: 18px;
+}
+
+header a {
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  color: #000000;
+  transition: 0.3s;
+}
+
+header a:hover {
+  transform: scale(1.1);
+}
+
 .h1 {
   font-family: Gilroy;
   font-weight: 700;
@@ -18,8 +54,7 @@ table {
   background: white;
   border-radius: 8px;
   overflow: hidden;
-  font-size: 14px;
-  margin-bottom: 10px;
+  margin-bottom: 21px;
 }
 
 th {
@@ -32,6 +67,7 @@ th {
 
 td {
   font-weight: 500;
+  font-size: 14px;
   padding: 12px 16px;
   border-bottom: 1px solid #B9C0D1;
 }
@@ -59,27 +95,27 @@ td {
 }
 
 .wallet:nth-child(2) {
-  background: linear-gradient(135deg, #392de2, #e0007b);
+  background: linear-gradient(84.37deg, #D7816A 2.27%, #BD4F6C 92.26%);
 }
 
 .wallet:nth-child(3) {
-  background: linear-gradient(135deg, #00b09b, #36fa05);
+  background: linear-gradient(135deg, #00b09b 2.27%, #36fa05 92.26%);
 }
 
 .wallet:nth-child(4) {
-  background: linear-gradient(135deg, #886e84, #387fcc);
+  background: linear-gradient(135deg, #886e84 2.27%, #387fcc 92.26%);
 }
 
 .wallet:nth-child(5) {
-  background: linear-gradient(135deg, #00fff2, #0011ff);
+  background: linear-gradient(135deg, #00fff2 2.27%, #0011ff 92.26%);
 }
 
 .wallet:nth-child(6) {
-  background: linear-gradient(135deg, #e73b10, #f1dd29);
+  background: linear-gradient(135deg, #e73b10 2.27%, #f1dd29 92.26%);
 }
 
 .wallet:nth-child(7) {
-  background: linear-gradient(135deg, #05beec, #0fca2e);
+  background: linear-gradient(84.37deg, #380036 2.27%, #0CBABA 92.26%);
 }
 
 .wallet:nth-child(n+5) {
@@ -123,7 +159,7 @@ td {
   grid-template-rows: repeat(1, 1fr);
   grid-template-columns: repeat(4, 1fr);
   gap: 24px;
-  padding-bottom: 21px; 
+  padding-bottom: 21px;
 }
 
 .transactions h2 {
