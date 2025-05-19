@@ -167,6 +167,7 @@ td {
   font-weight: 500;
   font-size: 24px;
   padding-top: 74px;
+  padding-bottom: 32px;
 }
 
 .transactions a {
@@ -174,4 +175,18 @@ td {
   font-weight: 600;
   font-size: 16px;
   color: #0047FF;
+}
+
+tr:nth-child(n+8) {
+  display: none;
+}
+
+td:nth-child(7) {
+  border: none;
+  border-bottom: none;
+}
+
+tr:nth-child(7) td{
+  border: none;
+  border-bottom: none;
 }
