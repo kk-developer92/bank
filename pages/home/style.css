@@ -37,7 +37,7 @@ header a {
   transition: 0.3s;
 }
 
-header a:hover{
+header a:hover {
   transform: scale(1.1);
 }
 
@@ -95,27 +95,27 @@ td {
 }
 
 .wallet:nth-child(2) {
-  background: linear-gradient(84.37deg, #D7816A 2.27%, #BD4F6C 92.26%);
+  background: linear-gradient(84.37deg, #da8068 2.27%, #ff0000 92.26%);
 }
 
 .wallet:nth-child(3) {
-  background: linear-gradient(135deg, #00b09b, #36fa05);
+  background: linear-gradient(135deg, #00b09b 2.27%, #36fa05 92.26%);
 }
 
 .wallet:nth-child(4) {
-  background: linear-gradient(135deg, #886e84, #387fcc);
+  background: linear-gradient(135deg, #886e84 2.27%, #387fcc 92.26%);
 }
 
 .wallet:nth-child(5) {
-  background: linear-gradient(135deg, #00fff2, #0011ff);
+  background: linear-gradient(135deg, #00fff2 2.27%, #0011ff 92.26%);
 }
 
 .wallet:nth-child(6) {
-  background: linear-gradient(135deg, #e73b10, #f1dd29);
+  background: linear-gradient(135deg, #e73b10 2.27%, #f1dd29 92.26%);
 }
 
 .wallet:nth-child(7) {
-  background: linear-gradient(135deg, #05beec, #0fca2e);
+  background: linear-gradient(84.37deg, #380036 2.27%, #0CBABA 92.26%);
 }
 
 .wallet:nth-child(n+5) {
