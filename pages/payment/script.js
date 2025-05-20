@@ -9,14 +9,13 @@ form.onsubmit = async (e) => {
 
 
   const user = {
-    name: document.getElementById('name').value.trim(),
-    email: document.getElementById('email').value.trim(),
-    firstname: document.getElementById('firstname').value.trim(),
-    password: document.getElementById('password').value.trim(),
+    wallet: document.getElementById('wallet').value.trim(),
+    sum: document.getElementById('sum').value.trim(),
+    categorie: document.getElementById('categorie').value.trim(),
   };
 
 
-    const res = await fetch( BASEURL + "/users", {
+    const res = await fetch( BASEURL + "/payments", {
       method: "POST",
       body: JSON.stringify(user),
       headers: {
