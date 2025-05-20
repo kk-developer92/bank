@@ -1,21 +1,31 @@
 {
   "users": [
     {
-      "id": "be074918-1f76-4350-bc3b-2fc33b110169",
-      "fullName": "Mixin",
-      "createdAt": "Sat May 17 2025"
+      "id": "ed8b",
+      "name": "",
+      "email": "",
+      "firstname": "",
+      "password": ""
     },
     {
-      "id": "7050878e-c019-4ec7-b2e2-96bc7a809c1b",
-      "fullName": "Zarruh",
-      "createdAt": "Sat May 17 2025"
+      "id": "53fc",
+      "name": "ZAk",
+      "email": "zadd@gmail.com",
+      "firstname": "zak",
+      "password": "201"
     },
     {
-      "id": "46fe589f-cbc8-4317-a111-549d18d0a5c5",
-      "fullName": "test",
-      "createdAt": "Sat May 17 2025"
+      "id": "83c9",
+      "name": "Zak",
+      "email": "zadd@gmail.com",
+      "firstname": "zak",
+      "password": "201"
     }
   ],
+
   "wallets": [],
-  "transactions": []
+
+
+  "payments": []
+
 }

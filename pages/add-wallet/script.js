@@ -10,13 +10,12 @@ form.onsubmit = async (e) => {
 
   const user = {
     name: document.getElementById('name').value.trim(),
-    email: document.getElementById('email').value.trim(),
-    firstname: document.getElementById('firstname').value.trim(),
-    password: document.getElementById('password').value.trim(),
+    currency: document.getElementById('currency').value.trim(),
+
   };
 
 
-    const res = await fetch( BASEURL + "/users", {
+    const res = await fetch( BASEURL + "/wallets", {
       method: "POST",
       body: JSON.stringify(user),
       headers: {
