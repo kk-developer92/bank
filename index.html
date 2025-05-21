@@ -4,30 +4,33 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./pages/style/style.css">
     <title>Vite App</title>
-
   </head>
   <body>
-    
-    <center>
-        <form name="add">
-            <input type="text" name="fullname" placeholder="Fullname">
-            <button>Add</button>
+    <div class="container">
+      <section class="registr">
+        <h1>Регистрация</h1>
+        <form id="form" name="form" class="form" action="">
+          <input id="email" type="email" placeholder="Почта" />
+          <input id="name" type="text" placeholder="Имя" />
+          <input id="firstname" type="text" placeholder="Фамилия" />
+          <input id="password" type="password" placeholder="Пароль" />
+          <button class="submit">Продолжить</button>
         </form>
-    </center>
+        <a href="#" class="link">Войти в аккаунт</a>
+      </section>
 
-    <table>
-        <thead>
-            <tr>
-              <th>Fullname</th>
-              <th>Actions</th>
-            </tr>
-        </thead>
-        <tbody>
-
-        </tbody>
-    </table>
-    
+      <section class="login">
+        <h1>Войти в аккаунт</h1>
+        <form class="form">
+          <input type="email" placeholder="Почта" required>
+          <input type="password" placeholder="Пароль" required>
+          <button type="submit">Продолжить</button>
+        </form>
+        <a href="#" class="link">Регистрация</a>
+      </section>
+    </div>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

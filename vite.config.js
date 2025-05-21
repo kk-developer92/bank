@@ -9,8 +9,13 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        signin: resolve(__dirname, 'pages/signin/index.html'),
-        signup: resolve(__dirname, 'pages/signup/index.html'),
+        singup: resolve(__dirname, 'pages/sing-up/index.html'),
+        singin: resolve(__dirname, 'pages/sing-in/index.html'),
+        payment: resolve(__dirname, 'pages/add-wallet/index.htmll'),
+        singin_wallet: resolve(__dirname, 'pages/payment/index.html'),
+        my_wallet: resolve(__dirname, 'pages/my_wallet/index.html'),
+        my_transaction: resolve(__dirname, 'pages/my-transaction/index.html'),
+        home: resolve(__dirname, 'pages/home/index.html'),
       },
     },
   },
