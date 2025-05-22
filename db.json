@@ -1,31 +1,27 @@
 {
-  "users": [
+  "users": [],
+  "payments": [
     {
-      "id": "ed8b",
-      "name": "",
-      "email": "",
-      "firstname": "",
-      "password": ""
+      "id": 67,
+      "wallet": "ak",
+      "categorie": "c",
+      "sum": "as",
+      "date": "0 дня назад"
     },
     {
-      "id": "53fc",
-      "name": "ZAk",
-      "email": "zadd@gmail.com",
-      "firstname": "zak",
-      "password": "201"
+      "id": 491,
+      "wallet": "ak",
+      "categorie": "c",
+      "sum": "as",
+      "date": "2 дня назад"
     },
     {
-      "id": "83c9",
-      "name": "Zak",
-      "email": "zadd@gmail.com",
-      "firstname": "zak",
-      "password": "201"
+      "id": 437,
+      "wallet": "",
+      "categorie": "",
+      "sum": "",
+      "date": "1 дня назад"
     }
   ],
-
-  "wallets": [],
-
-
-  "payments": []
-
+  "wallets": []
 }

@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
@@ -20,18 +21,21 @@
       <a href="../signup/index.html"><img src="../img/log-out (1) 1.png" alt=""></a>
     </div>
   </header>
+
   <div class="container">
-    <section class="wallet">
-      <h1>Добавить кошелек</h1>
-      <form class="form" name="form">
-        <input id="name" type="text" placeholder="Имя" required>
-        <input id="currency" type="text" placeholder="Валюта" required>
-        <button type="submit" class="add-wallet-btn">Добавить</button>
+    <section class="payment">
+      <h1>Добавить транзакцию</h1>
+      <form id="form" name="form" class="form" action="">
+        <input id="wallet" type="text" placeholder="Из кошелька" />
+        <input id="sum" type="text" placeholder="Сумма" />
+        <input id="categorie" type="text" placeholder="Категория" />
+        <button class="submit">Добавить</button>
       </form>
     </section>
-    <a href="../my_wallet/index.html">hi</a>
+
+
   </div>
-  <script type="module" src="./script.js"></script>
+  <script src="./script.js"></script>
 </body>
 
 </html>

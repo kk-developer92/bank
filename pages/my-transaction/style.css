@@ -38,10 +38,10 @@ header a {
   transition: 0.3s;
 }
 
+
 header a:hover{
   transform: scale(1.1);
 }
-
 
 .h1 {
     font-family: Gilroy;
