@@ -15,7 +15,7 @@ export default defineConfig({
         singin_wallet: resolve(__dirname, 'pages/payment/index.html'),
         my_wallet: resolve(__dirname, 'pages/my_wallet/index.html'),
         my_transaction: resolve(__dirname, 'pages/my-transaction/index.html'),
-        home: resolve(__dirname, 'pages/home/index.html'),
+        home: resolve(__dirname, 'pages/home/index.html')
       },
     },
   },
