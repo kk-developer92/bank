@@ -11,7 +11,7 @@ export default defineConfig({
         main: resolve(__dirname, 'index.html'),
         singup: resolve(__dirname, 'pages/sing-up/index.html'),
         singin: resolve(__dirname, 'pages/sing-in/index.html'),
-        payment: resolve(__dirname, 'pages/add-wallet/index.htmll'),
+        payment: resolve(__dirname, 'pages/add-wallet/index.html'),
         singin_wallet: resolve(__dirname, 'pages/payment/index.html'),
         my_wallet: resolve(__dirname, 'pages/my_wallet/index.html'),
         my_transaction: resolve(__dirname, 'pages/my-transaction/index.html'),

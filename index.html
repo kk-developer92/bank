@@ -1,36 +1,47 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./pages/style/style.css">
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div class="container">
-      <section class="registr">
-        <h1>Регистрация</h1>
-        <form id="form" name="form" class="form" action="">
-          <input id="email" type="email" placeholder="Почта" />
-          <input id="name" type="text" placeholder="Имя" />
-          <input id="firstname" type="text" placeholder="Фамилия" />
-          <input id="password" type="password" placeholder="Пароль" />
-          <button class="submit">Продолжить</button>
-        </form>
-        <a href="#" class="link">Войти в аккаунт</a>
-      </section>
 
-      <section class="login">
-        <h1>Войти в аккаунт</h1>
-        <form class="form">
-          <input type="email" placeholder="Почта" required>
-          <input type="password" placeholder="Пароль" required>
-          <button type="submit">Продолжить</button>
-        </form>
-        <a href="#" class="link">Регистрация</a>
-      </section>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet"
+    href="https://gistcdn.githack.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <h1 class="h1">Добро пожаловать, Alex Adams!</h1>
+    <a class="google" href="#">alexadams@google.com</a>
+
+    <h2 class="my-wallet">Мои кошельки</h2>
+    <div class="my-wallets">
+
     </div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+    <a href="/my_wallet/" class="all-wallet">Смотреть все кошельки</a>
+    <div class="transactions">
+      <h2>Последние транзакции</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Отправлено с кошелька</th>
+            <th>Категория</th>
+            <th>Сумма транзации</th>
+            <th>Когда</th>
+          </tr>
+        </thead>
+        <tbody>
+        
+        </tbody>
+      </table>
+      <a href="/my-transaction/">Смотреть все оплаты</a>
+    </div>
+  </div>
+
+  <script type="module" src="src/main.js"></script>
+</body>
 </html>
