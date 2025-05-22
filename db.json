@@ -1,26 +1,27 @@
 {
   "users": [],
-  "payments": [],
-  "wallets": [
+  "payments": [
     {
-      "id": "a06b",
-      "name": "z",
-      "currency": "b"
+      "id": 67,
+      "wallet": "ak",
+      "categorie": "c",
+      "sum": "as",
+      "date": "0 дня назад"
     },
     {
-      "id": "8668",
-      "name": "z",
-      "currency": "b"
+      "id": 491,
+      "wallet": "ak",
+      "categorie": "c",
+      "sum": "as",
+      "date": "2 дня назад"
     },
     {
-      "id": "a3a1",
-      "name": "d",
-      "currency": "m"
-    },
-    {
-      "id": "53c9",
-      "name": "akbar",
-      "currency": "uz"
+      "id": 437,
+      "wallet": "",
+      "categorie": "",
+      "sum": "",
+      "date": "1 дня назад"
     }
-  ]
+  ],
+  "wallets": []
 }
